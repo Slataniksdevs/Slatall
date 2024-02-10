@@ -10,7 +10,7 @@ comentario
 */
 
 //Variables
-
+//String - Variable
 $string = "cadena de texto";
 $string = "aqui otra reemplazamos la cadena de texto";
 echo $string."\n";
@@ -20,6 +20,8 @@ echo gettype($string) ."\n";//con este comando identificamos el tipo de variable
 echo $string . "\n";
 echo gettype($string) ."\n";// aqui podemos validar que el valor es integer y no string
 
+
+//Integer Variable
 $integer = 7; //Variable de tipo entero
 $integer = $integer + 4; //suma de variable más integer
 echo $integer . "\n";
@@ -27,11 +29,12 @@ echo $integer - 1  . "\n";
 echo $integer . "\n";
 echo gettype($integer) ."\n";
 
-
+//double Variable
 $double = 6.5;
 echo gettype($double) ."\n";
 echo $integer + $double . "\n";
 
+//boolean Variable
 $bool = true;
 echo $bool ."\n";
 $bool = false;
