@@ -138,3 +138,7 @@ echo gettype($miclase) . "\n";
 
 
 
+$boolean = true;
+// asi podemos imprimir en valor por pantalla sirve para todos los tipos de variables
+var_dump($boolean);
+
